@@ -7,3 +7,5 @@ RUN apt-get install -y \
     curl \
     iputils-ping \
     netcat
+
+CMD ["/bin/bash"]
